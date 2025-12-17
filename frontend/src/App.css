@@ -1,0 +1,96 @@
+.app-shell {
+  min-height: 100vh;
+  background: #f4f6fb;
+  color: #1f2933;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background: #0b5ed7;
+  color: white;
+}
+
+.nav-bar nav a,
+.nav-bar .link-button {
+  margin-left: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-bar nav .active {
+  text-decoration: underline;
+}
+
+.link-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.brand {
+  font-weight: 700;
+}
+
+.main-content {
+  padding: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form {
+  display: grid;
+  gap: 10px;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.form button,
+.card button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #0b5ed7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+.error {
+  color: #d14343;
+}
+
+.success {
+  color: #1a7f37;
+}
+
+.map-frame {
+  width: 100%;
+  height: 200px;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 10px;
+}
